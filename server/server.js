@@ -15,7 +15,7 @@ const port = process.env.PORT || 8000;
 app.use(
   cors({
     origin: "https://warp1.up.railway.app",
-    methods: ["GET", "POST", "PUT", "DELETE"],
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
